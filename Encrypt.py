@@ -6,36 +6,11 @@ alphabet="abcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*()_+{}|:<>?=-[]\;',./`~ABC
 key = input("Enter a encrypt key of your Choice (at lease 8 Numbers long): ")
 encrypt =''
 
-#for i in message:
-  #position=alphabet.find(i)
-  #newposition=(position+ int())%94
-  #encrypt+=alphabet [newposition]
-#output = (encrypt)
-
-
-#for i in message:
-  #position=alphabet.find()
-  #newposition=(position+ int(key) )%94
-  #encrypt+=alphabet [newposition]
-#output = (encrypt)
-
-
-#for i in message:
-  #position=alphabet.find(i)
-  #newposition=(position+ int(key) )%94
-  #encrypt+=alphabet [newposition]
-#output = (encrypt)
-
-#for i in message:
-  #position=alphabet.find(i)
-  #newposition=(position+ int(key) )%94
-  #encrypt+=alphabet [newposition]
-#output = ()
-
-
-
-
-
+for i in message:
+  position=alphabet.find(i)
+  newposition=(position+ int(key) )%94
+  encrypt+=alphabet [newposition]
+output = (encrypt)
 
 
 
